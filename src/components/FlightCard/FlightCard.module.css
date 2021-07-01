@@ -1,0 +1,92 @@
+.flight_card {
+    width: 1000px;
+    background-color: #0087c9;
+    margin: 50px 70px 0 45%;
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.card_header h1 {
+    padding-left: 30px;
+}
+
+.price {
+    padding-right: 30px;
+}
+
+.price h1 {
+    text-align: right;
+}
+
+.forward_flight, .back_flight {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    margin-top: -15px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time div {
+    display: flex;
+    align-items: baseline;
+}
+
+.time img {
+    height: 20px;
+}
+
+.transfer {
+    width: 900px;
+    margin-left: 2%;
+}
+
+.line {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: #ffb168;
+}
+.line span {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+    font-weight: 300px;
+    padding: 0px 25px;
+}
+.line:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #919191;
+    position: absolute;
+    top: 50%;
+    margin-top: 2px;
+    z-index: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.pick_flight {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffb168;
+    color: #ffffff;
+    border: 0px solid #006089;
+    border-radius: 0px;
+    font-size: 21px;
+    padding: 15px 100px; 
+}
